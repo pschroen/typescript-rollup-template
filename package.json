@@ -1,0 +1,39 @@
+{
+  "name": "typescript-rollup-template",
+  "version": "1.0.0",
+  "description": "This is a TypeScript template with Rollup for bundling ES2022 modules",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "servez public",
+    "dev": "concurrently --names \"ROLLUP,HTTP\" -c \"bgBlue.bold,bgGreen.bold\" \"rollup -c -w -m inline\" \"servez public\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pschroen/typescript-rollup-template"
+  },
+  "bugs": {
+    "url": "https://github.com/pschroen/typescript-rollup-template/issues"
+  },
+  "homepage": "https://github.com/pschroen/typescript-rollup-template#readme",
+  "keywords": [
+    "typescript",
+    "rollup",
+    "template",
+    "codesandbox"
+  ],
+  "author": "pschroen",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "concurrently": "^8.2.0",
+    "rollup": "^3.27.2",
+    "servez": "^2.0.0",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
+}
