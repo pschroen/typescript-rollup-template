@@ -1,0 +1,6 @@
+{
+  "title": "typescript-rollup-template",
+  "description": "This is a TypeScript template with Rollup for bundling ES2022 modules",
+  "tags": ["rollup", "typescript"],
+  "published": true
+}
