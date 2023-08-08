@@ -1,3 +1,6 @@
 {
-  "template": "static"
+  "template": "static",
+  "container": {
+    "port": 8080
+  }
 }
